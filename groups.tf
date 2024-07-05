@@ -1,7 +1,3 @@
-provider "aws" {
-  region  = "us-east-1"
-}
-
 # create group with name "DevOps"
 resource "aws_iam_group" "DevOps" {
     name = "DevOps"
